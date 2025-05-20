@@ -1,0 +1,24 @@
+body {
+  background-color: #eee;
+  color: #222;
+  transition: 0.3s;
+}
+
+body.dark {
+  background-color: #333;
+  color: #eee;
+  button {
+    background-color: black;
+    color: white;
+    border: none;
+  }
+}
+button {
+  display: block;
+  border: none;
+  padding: 7px;
+  margin: 10px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 6px;
+}
